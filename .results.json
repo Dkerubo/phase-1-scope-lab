@@ -2,12 +2,12 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 3,
+    "passes": 5,
     "pending": 0,
-    "failures": 2,
-    "start": "2024-09-22T22:08:33.487Z",
-    "end": "2024-09-22T22:08:33.654Z",
-    "duration": 167
+    "failures": 0,
+    "start": "2024-10-04T17:29:33.349Z",
+    "end": "2024-10-04T17:29:33.662Z",
+    "duration": 313
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -29,12 +29,7 @@
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "duration": 1,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'not bob'",
-        "showDiff": true,
-        "expected": "not bob",
-        "stack": "AssertionError: expected undefined to equal 'not bob'\n    at Context.<anonymous> (test/indexTest.js:25:38)\n    at process.processImmediate (node:internal/timers:483:21)"
-      }
+      "err": {}
     },
     {
       "title": "overwrites the best customer",
@@ -52,11 +47,19 @@
     }
   ],
   "pending": [],
-  "failures": [
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -64,20 +67,6 @@
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
       "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 'not bob'",
-        "showDiff": true,
-        "expected": "not bob",
-        "stack": "AssertionError: expected undefined to equal 'not bob'\n    at Context.<anonymous> (test/indexTest.js:25:38)\n    at process.processImmediate (node:internal/timers:483:21)"
-      }
-    }
-  ],
-  "passes": [
-    {
-      "title": "returns the customerName",
-      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
